@@ -6,7 +6,7 @@ clockPointY = 0
 clockColor = 00FF50
 backColor = 00FF49  ;dummy color to make transparent background (but it is left around text, so the number is near the clockColor)
 textSize  = 30
-updateTime = 50   ;clock update frequency (msec)
+updateTime = 50   ;clock update periodicity (msec)
 
 Gui, Color, %backColor%  
 Gui, Font, S%textSize%, Unispace
