@@ -10,7 +10,7 @@ updateTime = 50   ;clock update periodicity (msec)
 
 Gui, Color, %backColor%  
 Gui, Font, S%textSize%, Unispace
-Gui, Add, Text, vMyText C%clockColor%, HH:MM:SS
+Gui, Add, Text, vClockText C%clockColor%, HH:MM:SS
 Gui, +AlwaysOnTop +LastFound +0x00C00000 +ToolWindow
 WinSet, TransColor, %backColor% 255
 Gui, Show, X%clockPointX% Y%clockPointY%  
@@ -24,7 +24,7 @@ Update:
 	h := NowSec // 864.0
 	m := (NowSec - h * 864) // 8.64
 	s := (NowSec - h * 864 - m * 8.64) // 0.0864
-	GuiControl,, MyText, %h%:%m%:%s%
+	GuiControl,, ClockText, %h%:%m%:%s%
 	Return
 
 ^1::
