@@ -11,4 +11,4 @@ In this clock
 
 
 
-Ctrl + T to make appear title bar
+Ctrl + 1 to make appear title bar
