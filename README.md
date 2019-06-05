@@ -9,6 +9,8 @@ In this clock
 
 1 second is around 11.57 times faster than real clock.
 
+Ctrl + 1 to make title bar appear or disappear.
 
+![img1](./img1.png "img1")
 
-Ctrl + 1 to make title bar appear
+![img2](./img2.png "img2")
