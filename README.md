@@ -11,6 +11,6 @@ In this clock
 
 Ctrl + 1 to make title bar appear or disappear.
 
-![img1](./img1.png "img1")
+![imaage1](./image1.png "image1")
 
-![img2](./img2.png "img2")
+![image2](./image2.png "image2")
